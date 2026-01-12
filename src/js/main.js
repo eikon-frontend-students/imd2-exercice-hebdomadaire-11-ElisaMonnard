@@ -3,8 +3,4 @@ var toggleBtn = document.querySelector;
 
 toggleBtn.addEventListener("click", function () {
   toggleBtn.classList.toggle("is-active");
-
-  if (toggleBtn.classList.contains("is-active")) {
-  } else {
-  }
 });
