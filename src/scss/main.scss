@@ -19,32 +19,4 @@ body {
   height: 1117px;
   padding: 50px 1542px 1029px 50px;
   align-items: center;
-  color: #f00;
-  font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 18px;
-}
-.count {
-  color: #000;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 400;
-}
-.btn {
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 20px;
-  gap: 10px;
-  border-radius: 19px;
-  border: 2px solid #f00;
-  background-color: white;
-  text-decoration: none;
-}
-
-.btn.is-active {
-  color: white;
-  background-color: #f00;
 }
