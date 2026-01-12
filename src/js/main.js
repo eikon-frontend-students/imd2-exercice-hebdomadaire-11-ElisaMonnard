@@ -1,6 +1,1 @@
-var toggleBtn = document.querySelector;
-("#togglebtn");
-
-toggleBtn.addEventListener("click", function () {
-  toggleBtn.classList.toggle("is-active");
-});
+var button = document.querySelector(".button");
