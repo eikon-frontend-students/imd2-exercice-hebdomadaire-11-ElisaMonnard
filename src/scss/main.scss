@@ -19,6 +19,12 @@ body {
   height: 1117px;
   padding: 50px 1542px 1029px 50px;
   align-items: center;
+  color: #f00;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
 }
 .count {
   color: #000;
@@ -26,7 +32,7 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
-button {
+.btn {
   display: inline-flex;
   flex-direction: row;
   align-items: center;
@@ -35,15 +41,10 @@ button {
   border-radius: 19px;
   border: 2px solid #f00;
   background-color: white;
-  color: #f00;
-  font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 18px;
+  text-decoration: none;
 }
 
-.button.is-active {
+button.is-active {
   color: white;
   background-color: #f00;
 }
