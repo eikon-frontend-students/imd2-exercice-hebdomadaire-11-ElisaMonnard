@@ -4,6 +4,12 @@ let counter = Number(number.textContent);
 togglebtn.addEventListener("click", function () {
   togglebtn.classList.toggle("is-active");
   number.classList.toggle("is-active");
+
+  if (togglebtn.classList.contains("is-active")) {
+    counter++;
+    number.textContent = counter;
+  }
+
   setTimeout(() => {
     togglebtn.classList.remove("is-active");
     number.classList.remove("is-active");
