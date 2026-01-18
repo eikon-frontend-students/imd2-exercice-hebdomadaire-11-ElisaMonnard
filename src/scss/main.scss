@@ -33,9 +33,18 @@ body {
   line-height: 18px;
 }
 
+.togglebtn.is-active {
+  background-color: #f00;
+  color: #fff;
+}
+
 .count {
   color: #000;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
+}
+
+.count.is-active {
+  color: white;
 }
